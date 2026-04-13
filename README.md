@@ -121,9 +121,9 @@ Please use the following code as the absolute source of truth for the layout and
 
 ![Login Page](images/LOGIN_(ALUMNI_USER).png)
 
-![Alumni Dashboard](images/ALUMNI_DASHBOARD.png)
+![Alumni Dashboard](images/DASHBOARD.png)
 
-![Donate Main Page](images/DONATE_MAIN_PAGE.png)
+![Donate Main Page](images/DONATE(MAIN).png)
 
 ![Your Impact](images/YOUR_IMPACT.png)
 
