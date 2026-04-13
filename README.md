@@ -9,22 +9,15 @@
 To replicate and run this project follow the following steps using Command Prompt:
 
 ```bash
-winget install OpenJS.NodeJS.LTS
-nvm install lts
-nvm use lts
-npm create vite@latest addu-nation -- --template solid
-cd addu-nation
-npm install
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-git clone https://github.com/shymanibs/firstattempt2026_Manibpel
-cd firstattempt2026_Manibpel
-npm install
-npm run dev
+Make sure you have insalled the ff before cloning:
+   1. [Node.js LTS](https://nodejs.org/en/download) — download and install the LTS version
+   2. Git — [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-Note: If npx tailwindcss init -p fails with "could not determine executable", create tailwind.config.js and postcss.config.js manually in your project root instead.
+Step 1: git clone https://github.com/shymanibs/firstattempt2026_Manibpel
+Step 2: cd firstattempt2026_Manibpel
+Step 3: npm install
+Step 4: npm run dev
 
-Note: If you get a PowerShell execution policy error, switch your VS Code terminal to Command Prompt by clicking the dropdown arrow next to the + in the terminal panel and selecting Command Prompt.
 ```
 
 ### AI Tools:
