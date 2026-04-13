@@ -33,7 +33,14 @@ Note: If you get a PowerShell execution policy error, switch your VS Code termin
 2. Gemini
 
 ### Prompt:
+FILES: [Home Alumni User.pdf](https://github.com/user-attachments/files/26664188/Home.Alumni.User.pdf) [Student Project Thank You.pdf](https://github.com/user-attachments/files/26664191/Student.Project.Thank.You.pdf)
 
+1. Make my prompt better for Claude AI and splice them that way I won't accidentally use all my free messages in claude. "As a programmer, create a website using solid JS framework using my app design based on the files and you must convert it to a web page.
+   Instructions:
+   Convert the figma images to website and make fill in the screen completely there shouldn't be any black spaces
+
+   Palette: #FFFFFF, ##F8F9FA, #040354, #135BEC, and #E11D48" 
+   
 First Prompt: Act as a Senior Frontend Developer specializing in SolidJS and Tailwind CSS. I am building a web-only dashboard called 'ADDU Nation' based on my uploaded PDFs. 
 
 Please generate the ff codes:
