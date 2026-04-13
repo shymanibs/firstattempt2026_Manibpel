@@ -17,8 +17,8 @@ cd addu-nation
 npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-git clone https://github.com/shymanibs/firstattempt2026_Lastname
-cd firstattempt2026_Lastname
+git clone https://github.com/shymanibs/firstattempt2026_Manibpel
+cd firstattempt2026_Manibpel
 npm install
 npm run dev
 
