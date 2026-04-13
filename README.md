@@ -112,4 +112,18 @@ Please use the following code as the absolute source of truth for the layout and
 
 #### Screenshots
 
+![Login Page](images/LOGIN_(ALUMNI_USER).png)
 
+![Alumni Dashboard](images/ALUMNI_DASHBOARD.png)
+
+![Donate Main Page](images/DONATE_MAIN_PAGE.png)
+
+![Your Impact](images/YOUR_IMPACT.png)
+
+![Create Campaign](images/CREATE_CAMPAIGN.png)
+
+![Network](images/NETWORK.png)
+
+![Career](images/CAREER.png)
+
+![Documents](images/DOCUMENTS.png)
