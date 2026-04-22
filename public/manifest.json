@@ -1,6 +1,7 @@
 {
   "name": "ADDU Nation",
   "short_name": "ADDU",
+  "description": "ADDU Nation Alumni Portal",
   "start_url": "/firstattempt2026_Manibpel/",
   "scope": "/firstattempt2026_Manibpel/",
   "display": "standalone",
@@ -8,15 +9,15 @@
   "background_color": "#040354",
   "icons": [
     {
-      "src": "/firstattempt2026_Manibpel/icon-192x192.png",
+      "src": "/firstattempt2026_Manibpel/icons/icon-192x192.jpg",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/jpeg",
       "purpose": "any maskable"
     },
     {
-      "src": "/firstattempt2026_Manibpel/icon-512x512.png",
+      "src": "/firstattempt2026_Manibpel/icons/icon-512x512.jpg",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/jpeg",
       "purpose": "any maskable"
     }
   ]
