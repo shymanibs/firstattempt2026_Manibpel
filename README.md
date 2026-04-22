@@ -9,22 +9,15 @@
 To replicate and run this project follow the following steps using Command Prompt:
 
 ```bash
-winget install OpenJS.NodeJS.LTS
-nvm install lts
-nvm use lts
-npm create vite@latest addu-nation -- --template solid
-cd addu-nation
-npm install
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-git clone https://github.com/shymanibs/firstattempt2026_Lastname
-cd firstattempt2026_Lastname
-npm install
-npm run dev
+Make sure you have insalled the ff before cloning:
+   1. [Node.js LTS](https://nodejs.org/en/download) — download and install the LTS version
+   2. Git — [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-Note: If npx tailwindcss init -p fails with "could not determine executable", create tailwind.config.js and postcss.config.js manually in your project root instead.
+Step 1: git clone https://github.com/shymanibs/firstattempt2026_Manibpel
+Step 2: cd firstattempt2026_Manibpel
+Step 3: npm install
+Step 4: npm run dev
 
-Note: If you get a PowerShell execution policy error, switch your VS Code terminal to Command Prompt by clicking the dropdown arrow next to the + in the terminal panel and selecting Command Prompt.
 ```
 
 ### AI Tools:
@@ -41,7 +34,7 @@ FILES: [Home Alumni User.pdf](https://github.com/user-attachments/files/26664188
 
    Palette: #FFFFFF, ##F8F9FA, #040354, #135BEC, and #E11D48" 
    
-First Prompt: Act as a Senior Frontend Developer specializing in SolidJS and Tailwind CSS. I am building a web-only dashboard called 'ADDU Nation' based on my uploaded PDFs. 
+(Helped with Gemini)First Prompt: Act as a Senior Frontend Developer specializing in SolidJS and Tailwind CSS. I am building a web-only dashboard called 'ADDU Nation' based on my uploaded PDFs. 
 
 Please generate the ff codes:
 
@@ -53,7 +46,7 @@ Please generate the ff codes:
 3. App.jsx: Set up the main layout. Use a two-column grid where the Sidebar stays on the left and the right side scrolls. In the main area, create a 'Daily Snapshot' section with 3 cards (Jobs, Status, Activity) using the designs from 'Home Alumni User.pdf'.
 4. State Management: Use `createSignal` to toggle between the 'Home' view and the 'Donate' view. When 'Donate' is active, show a button styled with Rose (#E11D48)."
 
-Second Prompt: Layout is now working. Let's build the functional components for Phase 2: Alumni User Login & Dashboard.
+(Helped with Gemini)Second Prompt: Layout is now working. Let's build the functional components for Phase 2: Alumni User Login & Dashboard.
 
 Requirement: Use strictly SolidJS logic (signals and control flow). Focus only on the Alumni User experience, not the staff.
 
@@ -75,7 +68,7 @@ Requirement: Use strictly SolidJS logic (signals and control flow). Focus only o
 4. Design:
    1. Maintain the edge-to-edge web dashboard look. All cards should be `bg-white` with `rounded-2xl` corners and soft shadows.
   
-Third Prompt: Phase 2 is working perfectly. Let's move to Phase 3: The Donation Hub.
+(Helped with Gemini)Third Prompt: Phase 2 is working perfectly. Let's move to Phase 3: The Donation Hub.
 
 1. New Component (`DonateView.jsx`):
    1. Create a grid-based gallery of 'Active Student Projects'.
@@ -95,7 +88,7 @@ Third Prompt: Phase 2 is working perfectly. Let's move to Phase 3: The Donation 
 4. Styling Detail:
    1. Use Navy (#040354) for project titles and Blue (#135BEC) for the 'Amount Raised' text.
   
-Fourth Prompt: I am in Phase 4 of a web-only dashboard called 'ADDU Nation' (SolidJS + Tailwind CSS). Use the pasted texts and files as reference and guide.
+(Helped with Gemini)Fourth Prompt: I am in Phase 4 of a web-only dashboard called 'ADDU Nation' (SolidJS + Tailwind CSS). Use the pasted texts and files as reference and guide.
 The Goal: Finalize the 'Module 3: Donate' features with high interactivity 
 Brand Identity:
 
@@ -121,9 +114,9 @@ Please use the following code as the absolute source of truth for the layout and
 
 ![Login Page](images/LOGIN_(ALUMNI_USER).png)
 
-![Alumni Dashboard](images/ALUMNI_DASHBOARD.png)
+![Alumni Dashboard](images/DASHBOARD.png)
 
-![Donate Main Page](images/DONATE_MAIN_PAGE.png)
+![Donate Main Page](images/DONATE(MAIN).png)
 
 ![Your Impact](images/YOUR_IMPACT.png)
 
