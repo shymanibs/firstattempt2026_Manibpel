@@ -127,3 +127,27 @@ Please use the following code as the absolute source of truth for the layout and
 ![Career](images/CAREER.png)
 
 ![Documents](images/DOCUMENTS.png)
+
+## PWA Conversion
+
+### Master Prompt
+"I am converting my SolidJS project 'ADDU-NATION' into a PWA. I am using Vite 
+and my project structure is standard (entry point is src/index.jsx). Generate a 
+valid manifest.json with university branding, register a Service Worker, and 
+implement a Cache-First caching strategy so the app loads instantly and works 
+offline."
+
+### Files Added
+- `public/manifest.json` — PWA identity, icons, theme color `#040354`
+- `public/sw.js` — Service Worker with Cache-First for static assets, 
+   Network-First for navigation
+- Updated `index.html` — manifest link + Apple PWA meta tags
+- Updated `src/index.jsx` — Service Worker registration on window load
+
+### AI Hallucinations / Errors Fixed Manually
+1. **vite-plugin-pwa version conflict** — AI suggested `vite-plugin-pwa` but it 
+   doesn't support Vite 8. Fixed by removing the plugin entirely and using a 
+   manual `sw.js` instead.
+2. **Wrong base path format** — AI initially needed correction; `base` in 
+   `vite.config.js` must be `/firstattempt2026_Manibpel/` not the full GitHub URL.
+3. **Merge conflicts** — Resolved using `git checkout --ours` to keep PWA changes.
