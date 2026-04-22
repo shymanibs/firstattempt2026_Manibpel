@@ -5,12 +5,12 @@ const CACHE_NAME = "addu-nation-v1";
 
 // Static assets to pre-cache on install
 const PRECACHE_URLS = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/favicon.svg",
-  "/icon-192x192.png",
-  "/icon-512x512.png",
+  "/firstattempt2026_Manibpel/",
+  "/firstattempt2026_Manibpel/index.html",
+  "/firstattempt2026_Manibpel/manifest.json",
+  "/firstattempt2026_Manibpel/favicon.svg",
+  "/firstattempt2026_Manibpel/icon-192x192.png",
+  "/firstattempt2026_Manibpel/icon-512x512.png",
 ];
 
 // File extensions that always use cache-first

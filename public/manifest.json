@@ -1,23 +1,20 @@
 {
   "name": "ADDU Nation",
   "short_name": "ADDU",
-  "description": "ADDU Nation Alumni Portal — connect, donate, and engage with the Ateneo de Davao University community.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/firstattempt2026_Manibpel/",
+  "scope": "/firstattempt2026_Manibpel/",
   "display": "standalone",
-  "orientation": "portrait-primary",
   "theme_color": "#040354",
   "background_color": "#040354",
-  "categories": ["education", "social"],
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "/firstattempt2026_Manibpel/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "/firstattempt2026_Manibpel/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
