@@ -9,8 +9,8 @@ const PRECACHE_URLS = [
   "/firstattempt2026_Manibpel/index.html",
   "/firstattempt2026_Manibpel/manifest.json",
   "/firstattempt2026_Manibpel/favicon.svg",
-  "/firstattempt2026_Manibpel/icon-192x192.png",
-  "/firstattempt2026_Manibpel/icon-512x512.png",
+  "/firstattempt2026_Manibpel/icon-192x192.jpg",
+  "/firstattempt2026_Manibpel/icon-512x512.jpg",
 ];
 
 // File extensions that always use cache-first
